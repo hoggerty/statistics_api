@@ -1,0 +1,16 @@
+{
+    "name": "hoggerty/statistics_api",
+    "description": "Test App for tracking visits by country.",
+    "autoload": {
+        "psr-4": {
+            "Hoggerty\\StatisticsApp\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Alekseev",
+            "email": "artalexeev@gmail.com"
+        }
+    ],
+    "require": {}
+}
