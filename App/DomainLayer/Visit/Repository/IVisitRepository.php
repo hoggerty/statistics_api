@@ -17,7 +17,7 @@ interface IVisitRepository
     public function save(IVisitEntity $visit): void;
 
     /**
-     * @return array<CountryCode, int>
+     * @return array<CountryCode::value, int>
      *
      * @throws DataStorageException
      */
